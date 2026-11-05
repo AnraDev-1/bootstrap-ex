@@ -26,9 +26,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         $mail->Port = 587;
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // tls
-        $mail->Username = 'email@example.com';
-        $mail->Password = ''; // App Password
-        $mail->setFrom('email@example.com', 'SMTP Demo'); // sender email
+        $mail->Username = 'mail_1@pbodavaodelsur.com';
+        $mail->Password = 'It10@2026'; // App Password
+        $mail->setFrom('mail_1@pbodavaodelsur.com', 'SMTP Demo'); // sender email
         $mail->addAddress('kjohn0319@gmail.com'); // recipient email
         $mail->isHTML(true);
         $mail->Subject = 'SMTP Demo';
